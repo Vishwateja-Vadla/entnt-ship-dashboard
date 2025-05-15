@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
       setCurrentUser(user);
       return { success: true };
     }
-    return { success: false, message: "Invalid email or password" };
+    return { success: false, message: "Invalid email or password." };
   };
 
   const logout = () => {
